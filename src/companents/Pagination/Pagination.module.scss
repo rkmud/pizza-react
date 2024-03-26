@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  text-align: center;
+  a {
+    padding: 10px 16px;
+    margin-right: 10px;
+    border: 1px solid #fe5f1e;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fe5f1e;
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover {
+      background-color: #fe5f1e;
+      color: #fff;
+    }
+  }
+  :global {
+    .selected {
+      a {
+        background-color: #fe5f1e;
+        color: #fff;
+      }
+    }
+  }
+}

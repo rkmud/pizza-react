@@ -1,0 +1,33 @@
+@import "../../scss/variable";
+@import "../../scss/normalize.css";
+.category {
+  &__list {
+    display: flex;
+    gap: 10px;
+    @media (max-width: 970px) {
+      flex-wrap: wrap;
+    }
+  }
+  &__item {
+    color: #2c2c2c;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+    padding: 13px 30px;
+    border-radius: 30px;
+    background: $gray;
+    cursor: pointer;
+    &--active {
+      color: $gray;
+      background: #2c2c2c;
+      transition: all 0.3s ease;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.24px;
+      padding: 13px 30px;
+      border-radius: 30px;
+    }
+  }
+}

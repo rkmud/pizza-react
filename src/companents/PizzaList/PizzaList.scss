@@ -1,0 +1,32 @@
+@import "../../scss/style.scss";
+@import "../../scss/variable";
+.pizza{
+  &-category {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.32px;
+    margin-top: 32px;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    min-height: 360px;
+  
+    @media (max-width: 1360px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: 1040px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 748px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+ 
+}

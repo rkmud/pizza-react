@@ -1,0 +1,31 @@
+{
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "files.autoSave": "afterDelay",
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "workbench.editor.enablePreview": false,
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "editor.minimap.enabled": false,
+    "diffEditor.maxComputationTime": 0,
+    "[javascriptreact]": {
+      "editor.formatOnSave": true
+    },
+    "eslint.codeActionsOnSave.rules": null,
+    "editor.formatOnSave": true,
+    "workbench.settings.applyToAllProfiles": [
+      "editor.formatOnSave"
+    ]
+  }
