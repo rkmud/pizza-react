@@ -13,9 +13,7 @@ export default function PizzaList() {
     <Skeleton key={index} />
   ));
   const pizzas = items.map((obj) => (
-    //<Link to={`/pizza/${obj.id}`} key={obj.id}> <PizzaItem  {...obj} /></Link>
    <PizzaItem  {...obj}  key={obj.id}/>
-   
   ));
   return (
     <>
