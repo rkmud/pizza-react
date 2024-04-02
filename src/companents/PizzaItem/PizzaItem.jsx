@@ -53,7 +53,7 @@ export default function PizzaItem({ id, imageUrl, name, types, sizes, price }) {
           </ul>
         </div>
         <div className="pizza-item__bottom" onClick={addPizza}>
-          <p>от {price[0]} ₽</p>
+          <p>{price[activeSize]} ₽</p>
           <div className="pizza-item__bottom-btn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
