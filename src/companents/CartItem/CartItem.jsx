@@ -23,14 +23,16 @@ const CartItem = ({ id, imageUrl, name, type, size, price, count  }) => {
      }
   return (
     <div class="cart__item" key={id}>
-      <div class="cart__item-img">
-        <img class="pizza-block__image" src={imageUrl} alt="Pizza" />
-      </div>
-      <div class="cart__item-info">
-        <h3>{name}</h3>
-        <p>
-          {type}, {size} см.
-        </p>
+      <div class="cart__item-data">
+          <div class="cart__item-img">
+            <img class="pizza-block__image" src={imageUrl} alt="Pizza" />
+          </div>
+          <div class="cart__item-info">
+            <h3>{name}</h3>
+            <p>
+              {type}, {size} см.
+            </p>
+          </div>
       </div>
       <div class="cart__item-count">
         <button class="button button--outline button--circle cart__item-count-minus"  onClick={onClickMinus} disabled={count === 1} >
