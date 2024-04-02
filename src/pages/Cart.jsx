@@ -13,7 +13,6 @@ const Cart = () => {
       dispatch(clearItem());
     }
   }
-  console.log(item)
   return (
     <div class="container container--cart">
       {item.length > 0 ? (
