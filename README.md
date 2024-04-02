@@ -1,4 +1,2 @@
 ## Demo
-
-[https://pizzas-react.vercel.app/](https://pizzass.vercel.app/)
-
+https://pizzaa-liart.vercel.app/
