@@ -1,2 +1,2 @@
 ## Demo
-https://pizzaa-liart.vercel.app/
+https://pizzas-react.vercel.app
